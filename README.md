@@ -1,3 +1,5 @@
+## Project to do while studying Samsung Innovation Campus
+
 # DeepLogo2
 
 A brand logo detection system using DETR.
