@@ -117,5 +117,6 @@ python detr/main.py \
 ```
 
 It takes about 3 hours and 15 minutes with Google Colab Pro to run 100 epochs.
+//Hay chay kaggle vi no free
 
 The DETR fine-tuning can be checked by running [Train_DeepLogo2_by_detr.ipynb](https://github.com/satojkovic/DeepLogo2/blob/main/Train_DeepLogo2_by_detr.ipynb).
