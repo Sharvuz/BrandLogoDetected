@@ -7,10 +7,7 @@ A brand logo detection system using DETR.
 
 # Description
 
-[DETR](https://github.com/facebookresearch/detr) is a Transformer-based object detection model published by Facebook AI in 2020. Pytorch training code and pretrained models are also available on Github.
-
-DeepLogo2 provides a training and inference environment for creating brand logo detection models using DETR.
-
+[DETR](https://github.com/facebookresearch/detr)
 # Detection results
 
 |||
@@ -22,7 +19,7 @@ DeepLogo2 provides a training and inference environment for creating brand logo 
 # Dataset
 
 DeepLogo2 use the [flickr logos 27 dataset](http://image.ntua.gr/iva/datasets/flickr_logos/).
-The flickr logos 27 dataset contains 27 classes of brand logo images downloaded from Flickr. The brands included in the dataset are: Adidas, Apple, BMW, Citroen, Coca Cola, DHL, Fedex, Ferrari, Ford, Google, Heineken, HP, McDonalds, Mini, Nbc, Nike, Pepsi, Porsche, Puma, Red Bull, Sprite, Starbucks, Intel, Texaco, Unisef, Vodafone and Yahoo.
+
 
 To fine-tuning DETR, the dataset is conveted to COCO format.
 
@@ -117,6 +114,6 @@ python detr/main.py \
 ```
 
 It takes about 3 hours and 15 minutes with Google Colab Pro to run 100 epochs.
-//Hay chay kaggle vi no free
+#//Hay chay kaggle vi no free
 
 The DETR fine-tuning can be checked by running [Train_DeepLogo2_by_detr.ipynb](https://github.com/satojkovic/DeepLogo2/blob/main/Train_DeepLogo2_by_detr.ipynb).
